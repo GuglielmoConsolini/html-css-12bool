@@ -1,0 +1,123 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.h-60{
+    height: 60px;
+}
+
+body{
+    background-color: green;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.red{
+    background-color: red;
+}
+
+.black{
+    background-color: black;
+}
+
+.green{
+    background-color: green;
+}
+
+.small-text{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.box {
+	padding: 1.5rem;
+	text-align: center;
+	height: 100%;
+	border: solid 2px white;
+    color: white;
+    font-size: 28px;
+}
+
+.nested{
+    padding: 1rem;
+    text-align: center;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+    
+}
+
+
+.zero{
+    font-size: 60px;
+    color: white;
+    border: 2px solid white;
+    position: absolute;
+    padding: 1.2rem;
+    left: 196px;
+    top: 221px;
+}
+
+.double-zero{
+    font-size: 60px;
+    color: white;
+    border: 2px solid white;
+    position: absolute;
+    padding: 0.2rem 1.2rem;
+    left: 196px;
+    top: 74px;
+}
+
+
+
+ /* ***COLUMN*** */
+.col-1{
+    width: calc(100% / 12 * 1);
+}
+.col-2{
+    width: calc(100% / 12 * 2);
+}
+.col-3{
+    width: calc(100% / 12 * 3);
+}
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+.col-5{
+    width: calc(100% / 12 * 5);
+}
+.col-6{
+    width: calc(100% / 12 * 6);
+}
+.col-7{
+    width: calc(100% / 12 * 7);
+}
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+.col-9{
+    width: calc(100% / 12 * 9);
+}
+.col-10{
+    width: calc(100% / 12 * 10);
+}
+.col-11{
+    width: calc(100% / 12 * 11);
+}
+.col-12{
+    width: calc(100% / 12 * 12);
+}

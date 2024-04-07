@@ -1,0 +1,24 @@
+/* **COMMON** */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h2{
+    margin: 1rem ;
+    text-align: center;
+}
+
+.box {
+	padding: 1rem;
+	background: lightgreen;
+	text-align: center;
+	height: 100%;
+	border: solid 1px white;
+}
